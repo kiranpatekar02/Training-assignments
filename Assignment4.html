@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+*{
+  box-sizing: border-box;
+}
+
+.rowsmall{
+   padding-top:10px;
+   float:right;
+  width:100%;
+  height:40px;
+  background-color: #00008b;
+  text-align:center;
+ }
+    
+.column
+{
+  float: left;
+  width: 20%;
+  height:700px; 
+}
+
+.rowbig {
+float: right;
+width:80%;
+height:150px; 
+text-align:right;
+}
+.row:after
+{
+content : "";
+display: table;
+clear : both;
+}
+</style>
+ 
+<body>
+<div class="rowbig" style="background-color: #00008b">
+<font size="7" color="white" align="centre">Username</font>
+</div>
+
+<div class="column" style="background-color:grey;">
+  <img src=".\livi.jpg" align="center" width="250" height="200" style="padding: 10px 20px;"/><br>
+  <a href="dashboard"><p align="center">Dashboard</p></a><br>
+  <a href="User"><p align="center">User</p></a><br>
+  <a href="Rooms"><p align="center">Rooms</p></a><br>
+  <a href="Account" ><p align="center">Account</p></a>
+ </div>
+   
+<div class="rowsmall">
+<font color="white">@Copyrights by Liviano Rooms</font>
+</div>
+   
+<h1 align="center">Add Rooms</h1>
+<form>
+<pre>
+		                  Type :         <select  
+		                   style="border-radius: 15px ; width:155px;"  
+		                   <option>&nbsp;</option>
+		                   <option>&nbsp;</option>
+		                   </select><br>
+		                   Cost :         <input type="number" style="border-radius: 15px;" placeholder="3000.00"/><br>
+		                   				  
+		                   Include Breakfast: <input type="checkbox"/><br>
+		                   Bed   :  King :<input type="radio"/> Queen:<input type="radio"/> Twin:<input type="radio"/> Double:<input type="radio"/><br>
+		                   Phone :        <input type="number" style="border-radius: 15px;" placeholder="Enter your number"/><br>
+		                   Total Rooms :  <input type="number" style="border-radius: 15px;" placeholder="Enetr total rooms"/> <br><br>
+		                   Description :  <textarea  name="description"  style="border-radius: 15px;" id="discription" cols="25" rows="2" placeholder="Enter your description in 360words"></textarea>
+		                   				  		                   				  
+                                   <input type="button" style="border-radius: 15px;" value="Save"/>    <input type="button" style="border-radius: 15px;" value="Cancel"/>
+</pre>
+</form>
+</body>
+</html>
