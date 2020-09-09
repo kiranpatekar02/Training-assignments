@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<style>
+fieldset.one{
+  width:80px;
+  height:60%;
+}
+table.one{
+  border: 2px solid black;
+  width:80%;
+  height:50px;
+  empty-cells: show
+}
+table.second{
+width:880px;
+  height:80px;
+}
+table{
+  width:900px;
+  height:90px;
+}
+div.small{
+overflow:scroll;
+}
+div.big{
+margin:50px 150px ;
+}
+
+</style>
+
+</head>
+<body>
+<div class="big">
+<form>
+
+<fieldset class="one">
+  <table>
+  <legend> Personal Information  :  </legend>
+  <br><br><br><br>
+  
+  <tr>
+  <td>ID</td>
+  <td><input type="text"  name="ID"></td>
+  <td>Age</td>
+  <td><input type="number"  name="age"></td>
+  </tr>
+                
+   <tr>
+   <td>First Name</td>
+   <td><input type="text" name="first name"></td>
+   <td> City </td>
+   <td> <input type="text" name="city"></td>
+   </tr>
+    
+    <tr>
+    <td>Last Name</td>
+    <td><input type="text" name="last name"></td>
+    <td>State</td>
+    <td><input type="text" name="state"></td>
+    </tr>  
+      
+     <tr>
+     <td> Father Name</td>
+     <td>  <input type="text" name="father name">   </td>
+     <td>Pincode</td>
+     <td><input type="number" name="pinc"></td>
+     </tr> 
+ </table>
+ <br><br><br><br>  
+  
+   <div class="small">
+   <table class="one" border="1">
+     <thead> Educational Information : </thead>
+  
+   <tr>
+   <th>   Year         </th>
+   <th>   Education    </th>
+   <th>   Percentage   </th>
+   <th>   Result       </th>
+   <th>   Select Row   </th>
+   </tr>
+   
+   <tr>
+   <td> 	</td>
+   <td>		</td>
+   <td>     </td>
+   <td>     </td>
+   <td>    <input type="radio" >   </td>
+   </tr>
+   </table>
+</div>
+
+<br><br>
+
+<table border="1">
+<tr>
+<td> 
+<button type="button">Add Row </button>
+<button type="button">Delete Row</button>
+</td>
+</tr>
+<br>
+
+<tr>
+<td>
+<button type="button"> Save Details </button>
+<button type="button"> Priview Details </button>
+<button type="button"> Cancel</button>
+</td>
+</tr>
+<br>
+
+<tr>
+<td>
+<button type="button"> Stringify Detail</button>
+</td>
+</tr>
+</table>
+
+</fieldset>
+</form>
+</div>
+</body>
+</html>
