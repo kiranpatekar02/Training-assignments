@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<link rel='stylesheet' href='studentform.css' type='text/css' />
+ 
+</head>
+<body style="background-color:powderblue;">
+<h1>Student Registration Form</h1>
+
+
+<form id="registration">    
+<ul>
+<li><label for="FIRST NAME">FIRST NAME:</label></li>
+<li><input type="text" name="first name" size="30" /></li>
+<li><label for="LAST NAME">LAST NAME:</label></li>
+<li><input type="text" name="last name" size="30" /></li>
+<li><label for="Designation">Designation:</label></li>
+<li><input type="text" name="address" size="30" /></li>
+<li><label for="mobile_no">Mobile_no:</label></li>
+<li><input type="text" name="mobile_no" size="30" /></li>
+<li><label for="Address">Address:</label></li>
+<li><textarea name="Address" id="Address"></textarea></li>
+<li><label for="country">Country:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></li>
+<li><label for="pin">Pin Code:</label></li>
+<li><input type="text" name="pin" /></li>
+
+<li><input type="submit" name="submit" value="Submit" /></li>
+
+<li><input type="reset" onclick="myFunction()" value="Reset form"></li>
+</form>
+<script>
+    function myFunction() {
+      document.getElementById("registration").reset();
+    }
+    </script>
+    
+</ul>
+</form>
+</body>
+</html>
