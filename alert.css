@@ -1,0 +1,8 @@
+body {
+  background-image: linear-gradient(to right, red, yellow);
+}
+.main {
+  margin: 15% 33%;
+  border-radius: 10px;
+  text-align: center;
+}
