@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(to right, red, yellow);
+}
+.main {
+  margin: 5% 33%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: green;
+}
